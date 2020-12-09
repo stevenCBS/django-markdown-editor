@@ -10,3 +10,4 @@ class PostTestCase(TestCase):
         self.assertEqual(post.title, "My Title")
         self.assertEqual(post.description, "Blurb")
         self.assertEqual(post.wiki, "Post Body")
+        
